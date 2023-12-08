@@ -34,7 +34,7 @@ export function ThemeSwitcher(props: any) {
           {...getWrapperProps()}
           className={slots.wrapper({
             class: [
-              "w-8 h-8",
+              "h-8 w-8",
               "flex items-center justify-center",
               "rounded-lg bg-default-100 hover:bg-default-200",
             ],

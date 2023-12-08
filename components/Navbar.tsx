@@ -6,7 +6,7 @@ const Navbar = () => {
   const links = [
     { label: "Home", value: "/" },
     { label: "Explore", value: "/explore" },
-    { label: "Find me", value: "/" },
+    { label: "Find me", value: "/know-me" },
   ];
   return (
     <div className="dark:bg-black dark:text-white">
