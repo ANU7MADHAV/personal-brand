@@ -4,6 +4,7 @@ import response from "@/public/response.jpeg";
 export const projects = [
   {
     projectName: "React Web Application using RAWG API",
+    id: 1,
     description:
       "Developed a dynamic web application utilizing the RAWG API to provide comprehensive information about games. Implemented features such as sorting, REST API category filtering by genres, and a search functionality for an enhanced user experience.",
     technologies: {
@@ -26,6 +27,7 @@ export const projects = [
   },
   {
     projectName: "Journal App with Next.js",
+    id: 2,
     description:
       "Developed a dynamic journal application using Next.js, enabling users to seamlessly add daily entries. Implemented authentication initially with Clerk Docs and later integrated NextAuth with Google Auth provider middleware, utilizing Prisma and Supabase for backend functionality. In development, MySQL database was employed for data storage, allowing users to perform CRUD operations such as deleting and modifying journal entries. The application also features autosaving and the ability to create new journal entries.",
     technologies: {
@@ -47,6 +49,7 @@ export const projects = [
   },
   {
     projectName: "Response Issue Full Stack Web Application",
+    id: 3,
     description:
       "Developed a feature-rich full-stack web application using Next.js, enabling users to dynamically fetch and write responses. Utilized Prisma as the ORM for PostgreSQL and Supabase databases, implementing CRUD operations for seamless data management. The application features a dark theme and incorporates user authentication via NextAuth with the OAuth Google provider, along with middleware for efficient sign-in and sign-out processes.",
     technologies: {

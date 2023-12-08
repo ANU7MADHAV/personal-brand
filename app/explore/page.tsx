@@ -1,13 +1,20 @@
-import { Card, CardBody, CardHeader, SimpleGrid } from "@chakra-ui/react";
+import {
+  Card,
+  CardBody,
+  CardHeader,
+  Heading,
+  SimpleGrid,
+} from "@chakra-ui/react";
 
 import { projects } from "@/services/data";
 import Image from "next/image";
+import Link from "next/link";
 
 const ExplorePage = () => {
   return (
     <SimpleGrid
       columns={3}
-      gap={3}
+      gap={5}
       className="bg-white px-8 py-4 dark:bg-black"
     >
       {projects.map((project) => (
@@ -20,7 +27,11 @@ const ExplorePage = () => {
           <CardHeader>
             <Image alt="project image" src={project.image} />
           </CardHeader>
-          <CardBody></CardBody>
+          <CardBody>
+            <Heading>
+              <Link href={`/explore/${project.id}`}>{project.projectName}</Link>
+            </Heading>
+          </CardBody>
         </Card>
       ))}
     </SimpleGrid>
