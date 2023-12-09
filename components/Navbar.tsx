@@ -13,11 +13,9 @@ const Navbar = () => {
       <nav className="flex justify-between px-8 py-3">
         <ul className="flex gap-5">
           {links.map((link) => (
-            <>
-              <li key={link.value}>
-                <Link href={link.value}>{link.label}</Link>
-              </li>
-            </>
+            <li key={link.value}>
+              <Link href={link.value}>{link.label}</Link>
+            </li>
           ))}
         </ul>
         <ThemeSwitcher />

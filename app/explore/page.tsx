@@ -13,7 +13,7 @@ import Link from "next/link";
 const ExplorePage = () => {
   return (
     <SimpleGrid
-      columns={3}
+      columns={{ lg: 3, md: 2, sm: 1 }}
       gap={5}
       className="bg-white px-8 py-4 dark:bg-black"
     >

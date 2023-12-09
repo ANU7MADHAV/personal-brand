@@ -9,10 +9,10 @@ export const projects = [
       "Developed a dynamic web application utilizing the RAWG API to provide comprehensive information about games. Implemented features such as sorting, REST API category filtering by genres, and a search functionality for an enhanced user experience.",
     technologies: {
       frontend: [
-        "React",
-        "React Query",
-        "React Router",
-        "Zustand",
+        "React ",
+        "React Query ",
+        "React Router ",
+        "Zustand ",
         "Chakra UI",
       ],
     },
@@ -24,6 +24,7 @@ export const projects = [
     ],
     deployment: "Deployed the application on Vercel.",
     image: game,
+    link: "https://itachi-gaming.vercel.app/",
   },
   {
     projectName: "Journal App with Next.js",
@@ -31,9 +32,9 @@ export const projects = [
     description:
       "Developed a dynamic journal application using Next.js, enabling users to seamlessly add daily entries. Implemented authentication initially with Clerk Docs and later integrated NextAuth with Google Auth provider middleware, utilizing Prisma and Supabase for backend functionality. In development, MySQL database was employed for data storage, allowing users to perform CRUD operations such as deleting and modifying journal entries. The application also features autosaving and the ability to create new journal entries.",
     technologies: {
-      frontend: ["Next.js", "Next UI", "Tailwind CSS", "Chakra UI"],
-      authentication: ["Clerk Docs", "NextAuth with Google Auth provider"],
-      backend: ["Prisma", "Supabase", "MySQL"],
+      frontend: ["Next.js ", "Next UI ", "Tailwind CSS ", "Chakra UI "],
+      authentication: ["Clerk Docs ", "NextAuth with Google Auth provider"],
+      backend: ["Prisma ", "Supabase ", "MySQL "],
     },
     functionalityHighlights: [
       "Users can add daily journal entries.",
@@ -46,6 +47,7 @@ export const projects = [
     deployment:
       "Deployed the application on [Deployment Platform] (replace with the actual deployment platform).",
     image: journal,
+    link: "https://journal-fawn-ten.vercel.app/",
   },
   {
     projectName: "Response Issue Full Stack Web Application",
@@ -53,9 +55,9 @@ export const projects = [
     description:
       "Developed a feature-rich full-stack web application using Next.js, enabling users to dynamically fetch and write responses. Utilized Prisma as the ORM for PostgreSQL and Supabase databases, implementing CRUD operations for seamless data management. The application features a dark theme and incorporates user authentication via NextAuth with the OAuth Google provider, along with middleware for efficient sign-in and sign-out processes.",
     technologies: {
-      frontend: ["Next.js", "Radix UI", "Next UI", "Tailwind CSS"],
-      backend: ["Prisma", "Supabase", "PostgreSQL"],
-      authentication: ["NextAuth", "OAuth Google provider"],
+      frontend: ["Next.js ", "Radix UI ", "Next UI ", "Tailwind CSS "],
+      backend: ["Prisma ", "Supabase ", "PostgreSQL "],
+      authentication: ["NextAuth ", "OAuth Google provider "],
     },
     functionalityHighlights: [
       "Full-stack capabilities allowing users to fetch and write responses",
@@ -64,9 +66,10 @@ export const projects = [
       "User authentication using NextAuth with OAuth Google provider",
       "Middleware for streamlined sign-in and sign-out processes",
     ],
-    stylingLibraries: ["Radix UI", "Next UI", "Tailwind CSS"],
+    stylingLibraries: ["Radix UI ", "Next UI ", "Tailwind CSS "],
     deployment:
       "Deployed the application on [Deployment Platform] (replace with the actual deployment platform).",
     image: response,
+    link: "https://response-nextjs.vercel.app/",
   },
 ];

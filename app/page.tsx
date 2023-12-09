@@ -8,7 +8,7 @@ export default function Home() {
       <div>
         <h1 className="text-2xl font-semibold dark:text-white">Hey </h1>
       </div>
-      <div className="-mb-20 mt-6 dark:text-white md:hidden">
+      <div className="-mb-20 mt-6 dark:text-white sm:hidden">
         <FaArrowDown />
       </div>
       <div className="-mr-20 hidden pl-8 dark:text-white sm:block">
